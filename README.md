@@ -1,120 +1,45 @@
-<h1>Stap 1</h1>
-<p>Ga naar cards.json en copy en paste het volgende</p>
-<p>
-,
-    {
-        "id": vul id in,
-        "title": "project-naam",
-        "image": "img/afbeelding met zwart balk",
-        "mobileImage": "img/afbeelding zonder zwarte balk",
-        "link": "pagina-naam.html"
-    }
-</p>
+# Michelle Jonk — portfolio
 
-<h1>Stap 2</h1>
-<p>Maak een nieuwe .html.
-dat doe je door op persoonlijk-portfolio met rechter muis knop te klikken en dan new file te selecteren. ZORG DAT DE NAAM VAN FILE EINDIGD MET .html</p>
+Portfolio met een Nederlandstalig beheer voor projecten en een tijdlijn met opleidingen en werkervaring. De bestaande zeven projecten zijn overgezet van grote samengestelde afbeeldingen naar echte tekst en losse WebP-afbeeldingen.
 
-<h1>Stap 3</h1>
-<p>Copy en paste de volgende code in de nieuwe .html:</p>
-<p>
+**Begin met [SETUP.md](SETUP.md)** voor de eenmalige koppeling met Firebase, een privé GitHub-inhoudsrepository en Netlify. De accounts zijn nog niet aangemaakt of gekoppeld.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio Michelle Jonk</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bedrijfs.css">
-</head>
-<body>
-    <nav id="navbar">
-        <div class="nav-header">
-            <strong>MICHELLE JONK</strong>
-        </div>
-        <div id="hamburgermenu">
-            <div id="navigatie">
-                <button id="menu-toggle" class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-            <ul id="nav-links" class="nav-links">
-                <li>
-                    <p><a href="index.html">HOME</a></p>
-                </li>
-                <li>
-                    <p><a href="index.html#aboutme">OVER MIJ</a></p>
-                </li>
-                <li>
-                    <p><a href="index.html#projecten">PROJECTEN</a></p>
-                </li>
-                <li>
-                    <p><a href="index.html#contact">CONTACT</a></p>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <section id="afbeeldingen">
-        <img loading="lazy" src="img/afbeelding me tekst.png" alt="">
-    </section>
-    <section id="buttons">
-        <button id="nextbutton"><a href="laatste project dat je hebt toegevoegd.html">  < 
-        laatste project dat je hebt toegevoegd</a></button>
-        <button id="back-button"><a href="index.html">Home</a></button>
-    </section>
-    <footer id="contact">
-        <div id="cardcontainer">
-            <div>
-                <h5>pagina's</h5>
-                <div>
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="index.html#aboutme">Over Mij</a></p>
-                    <p><a href="index.html#projecten">Projecten</a></p>
-                </div>
-            </div>
-            <div>
-                <h5>Referenties</h5>
-                <div>
-                    <a href="tel: +31 22180355">René Pannekeet, Zwembad De Waterdam, 06 22180355</a>
-                    <a href="tel: +31 24446024">Franklin Verhoeven, New York Pizza, 06 24446024</a>
-                    <a href="tel: +31 30925048">Kees van den Dikkenberg, Björn Borg, 06 30925048</a>
-                    <a href="tel: +31 26320107">Sven Kwakman, Padelcentrum Bol, 06 26320107</a>
-                </div>
-            </div>
-            <div>
-                <h5>Contact</h5>
-                <div>
-                    <a href="mailto: Michellejonk17@gmail.com">Michellejonk17@gmail.com</a>
-                    <a href="tel: +31 20451380">06 20451380</a>
-                    <a href="https://www.linkedin.com/in/michelle-jonk-6b876526b/">@Michelle Jonk</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="mobile.js"></script>
-</body>
-</html>
-</p>
+## Lokaal bekijken
 
-<h1> Stap 4</h1>
-<p>Ga naar je laatste project dat je hebt gemaakt en herplaats dit:</p>
-<p>
-    <section id="buttons">
-        <button id="nextbutton"><a href="je laatste project.html">  < Lamp Project</a></button>
-        <button id="back-button"><a href="index.html">Home</a></button>
-    </section>
-</p>
+Gebruik Node.js 22 of nieuwer:
 
-<h3>Met dit:</h3>
-<p>
-    <section id="buttons">
-        <button id="nextbutton"><a href="vorige project.html">  < Rave run</a></button>
-        <button id="back-button"><a href="index.html">Home</a></button>
-        <button id="nextbutton"><a href="nieuwe project.html">Lamp Project ></a></button>
-</section>
-</p>
+```sh
+npm ci
+npm run build
+npm run preview
+```
 
-<h1>En nu heb je een nieuw project</h1>
+Website: `http://127.0.0.1:4173` · Beheer: `http://127.0.0.1:4173/admin.html`
+
+Het beheer gebruikt Firebase Google-login met twee toegestane e-mailadressen. Zonder accountconfiguratie toont het een installatiekaart. De lokale statische preview heeft geen backend; gebruik Netlify Dev of de Netlify-site voor echte login en publicatie.
+
+## Inhoud beheren
+
+Open `/admin.html` om projecten, afbeeldingen, tekst en tijdlijnitems te bewerken. Afbeeldingen uploaden, uitsnijden, herschikken, omslagen kiezen, voorbeelden bekijken, concepten opslaan en publiceren kan daar. Je hoeft geen nieuwe HTML-pagina's of entries in `cards.json` meer aan te maken.
+
+De publieke website gebruikt `portfolio.json`, dat tijdens de build wordt gemaakt. Concepten staan uitsluitend in de privé-inhoudsrepository. GitHub-tokens en de Netlify-build-hook blijven op de server. Alleen de Firebase-webconfiguratie gaat naar de browser.
+
+## Ontwikkelen en controleren
+
+```sh
+npm test
+npx playwright install chromium
+npx playwright test
+```
+
+De browsertests gebruiken een test-only Firebase-vervanger en gemockte API-verzoeken. Ze maken geen echte GitHub-commits of Netlify-deploys. Een geïnstalleerde Chrome kan worden gekozen met `PLAYWRIGHT_CHROME_PATH`.
+
+- `src/`: publieke weergave en beheerinterface.
+- `lib/`: servervalidatie, authenticatie en GitHub-opslag.
+- `netlify/functions/admin.mjs`: afgeschermde beheer-API.
+- `content/seed.json`: gemigreerde begininhoud.
+- `assets/`: uitgeknipte, geoptimaliseerde bestaande afbeeldingen.
+- `scripts/build.mjs`: publiceert uitsluitend benodigde websitebestanden naar `dist/`.
+- `scripts/migrate.mjs`: reproduceert de bestaande uitsneden en begininhoud vanuit `img/`.
+
+De oorspronkelijke projectpagina's en afbeeldingen blijven in de repository als bronmateriaal. De build maakt de oude project-URL's opnieuw met de nieuwe weergave.

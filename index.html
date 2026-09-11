@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio Michelle Jonk</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="resposive.css">
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/content.css">
+    <meta name="description" content="Portfolio van Michelle Jonk, ruimtelijk vormgever. Ontdek mijn interieurontwerpen, retailprojecten en werkervaring.">
 </head>
 
 <body>
-    <video id="backgroundvideo" autoplay loop muted plays-inline src="Untitled design.mp4"></video>
     <nav id="navbar">
         <div class="nav-header">
             <strong>MICHELLE JONK</strong>
         </div>
         <div id="hamburgermenu">
             <div id="navigatie">
-                <button id="menu-toggle" class="hamburger">
+                <button id="menu-toggle" class="hamburger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-links">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -44,9 +42,11 @@
 
     <main>
         <section id="top">
+            <video id="backgroundvideo" loop muted playsinline preload="none" data-src="Untitled design.mp4"></video>
             <div>
                 <h1>Ruimtelijk vormgeving </h1>
                 <p>Michelle Jonk</p>
+                <button id="play-background" type="button">Animatie afspelen</button>
             </div>
         </section>
         <section id="aboutme">
@@ -67,15 +67,16 @@
                     </p>
                 </div>
                 <div class="topimg">
-                    <img src="img/top.png" alt="top">
+                    <img src="assets/michelle.webp" alt="Michelle Jonk" width="300" height="300" loading="lazy" decoding="async">
                 </div>
             </div>
-            <div id="timeafbeelding">
-                <img src="img/timeline portfolio.png" alt="time">
-            </div>
+            <section id="timeline" aria-label="Opleiding en werkervaring"></section>
         </section>
         <section id="projecten">
             <h1>Projecten</h1>
+            <p id="content-status" class="content-status" role="status">Projecten laden…</p>
+            <div id="project-grid"></div>
+            <noscript>Schakel JavaScript in om de projecten en tijdlijn te bekijken.</noscript>
         </section>
     </main>
     <footer id="contact">
@@ -86,6 +87,7 @@
                     <p><a href="index.html">Home</a></p>
                     <p><a href="index.html#aboutme">Over Mij</a></p>
                     <p><a href="index.html#projecten">Projecten</a></p>
+                    <p><a href="admin.html">Beheer</a></p>
                 </div>
             </div>
             <div>
@@ -107,7 +109,7 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" src="src/public.js"></script>
 </body>
 
 </html>

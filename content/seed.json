@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "bedrijfskantine",
+      "title": "Bedrijfskantine",
+      "category": "Interieurontwerp",
+      "year": "",
+      "description": "Voor deze opdracht heb ik een indeling gemaakt voor een bedrijfskantine. De klant had een aantal eisen: er moest een bar zijn, een biljarttafel, genoeg zitplekken, en het geheel moest een industriële stijl hebben.\n\nIk heb een ontwerp gemaakt met verschillende zitmogelijkheden, zoals hoge barkrukken bij de bar, comfortabele loungesets en tafels waar meerdere mensen kunnen zitten. De bar is een opvallend onderdeel in het ontwerp, met materialen zoals hout en metaal die perfect passen bij de industriële sfeer. De biljarttafel staat centraal in de ruimte, waardoor het een gezellige plek wordt waar mensen samenkomen.\n\nOm de juiste sfeer te creëren, heb ik gekozen voor bakstenen muren, metalen accenten en industriële lampen. Ik heb het ontwerp gemaakt in SketchUp en de renders uitgewerkt met het renderprogramma Podium.\n\nDit project heeft me geleerd hoe ik een praktische en sfeervolle ruimte kan ontwerpen die voldoet aan de wensen van de klant.",
+      "status": "published",
+      "cover": "assets/bedrijfskantine-cover.webp",
+      "images": [
+        {
+          "src": "assets/bedrijfskantine-1.webp",
+          "alt": "Render van de bar en zithoek",
+          "caption": "Render van de bar en zithoek"
+        },
+        {
+          "src": "assets/bedrijfskantine-2.webp",
+          "alt": "Render van de lounge en biljarttafel",
+          "caption": "Render van de lounge en biljarttafel"
+        },
+        {
+          "src": "assets/bedrijfskantine-3.webp",
+          "alt": "Plattegrond in 3D",
+          "caption": "Plattegrond in 3D"
+        },
+        {
+          "src": "assets/bedrijfskantine-4.webp",
+          "alt": "Plattegrond met indeling",
+          "caption": "Plattegrond met indeling"
+        },
+        {
+          "src": "assets/bedrijfskantine-5.webp",
+          "alt": "Moodboard: materialen, meubels en verlichting",
+          "caption": "Moodboard: materialen, meubels en verlichting"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "id": "bjorn-borg",
+      "title": "Pop-up shop Björn Borg",
+      "category": "Retail design",
+      "year": "",
+      "description": "Voor de eerste Björn Borg pop-up shop voor dameskleding en -ondergoed in de Benelux mocht ik het hele ontwerp bedenken.\nIk kreeg de vrijheid om alles zelf te bedenken, zolang het maar binnen de huisstijl van Björn Borg paste. Van het uitkiezen van meubels en het inrichten van de winkel tot het samenstellen van de collectie, alles heb ik zelf geregeld.\n\nMet het programma SketchUp heb ik het ontwerp gemaakt en de renders heb ik gemaakt met Podium. Daarna stuurde ik de ontwerpen naar het team in Zweden voor feedback. Uiteindelijk is het gelukt om van mijn idee een echte winkel te maken.\n\nIk ben supertrots op hoe het eruit is komen te zien. Het was een leuke uitdaging om iets te ontwerpen dat niet alleen mooi is, maar ook goed werkt in het echt.\n\nDit is niet het enige project waaraan ik voor Björn Borg heb mogen meewerken. Hieronder vind je een selectie van andere modellen waar ik aan heb bijgedragen, waaronder het maken van renders en het uitwerken van ontwerpen.",
+      "status": "published",
+      "cover": "assets/bjorn-borg-cover.webp",
+      "images": [
+        {
+          "src": "assets/bjorn-borg-1.webp",
+          "alt": "Render van het definitieve winkelontwerp",
+          "caption": "Render van het definitieve winkelontwerp"
+        },
+        {
+          "src": "assets/bjorn-borg-2.webp",
+          "alt": "Render van de collectiepresentatie",
+          "caption": "Render van de collectiepresentatie"
+        },
+        {
+          "src": "assets/bjorn-borg-3.webp",
+          "alt": "De gerealiseerde pop-up shop",
+          "caption": "De gerealiseerde pop-up shop"
+        },
+        {
+          "src": "assets/bjorn-borg-4.webp",
+          "alt": "Overig voorstel 1",
+          "caption": "Overig voorstel 1"
+        },
+        {
+          "src": "assets/bjorn-borg-5.webp",
+          "alt": "Overig voorstel 2",
+          "caption": "Overig voorstel 2"
+        },
+        {
+          "src": "assets/bjorn-borg-6.webp",
+          "alt": "Overig voorstel 3",
+          "caption": "Overig voorstel 3"
+        },
+        {
+          "src": "assets/bjorn-borg-7.webp",
+          "alt": "Overig voorstel 4",
+          "caption": "Overig voorstel 4"
+        },
+        {
+          "src": "assets/bjorn-borg-8.webp",
+          "alt": "Ander project: winkelpresentatie",
+          "caption": "Ander project: winkelpresentatie"
+        },
+        {
+          "src": "assets/bjorn-borg-9.webp",
+          "alt": "Ander project: Running Direct",
+          "caption": "Ander project: Running Direct"
+        },
+        {
+          "src": "assets/bjorn-borg-10.webp",
+          "alt": "Ander project: standontwerp",
+          "caption": "Ander project: standontwerp"
+        },
+        {
+          "src": "assets/bjorn-borg-11.webp",
+          "alt": "Ander project: stand in perspectief",
+          "caption": "Ander project: stand in perspectief"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "id": "guess-display",
+      "title": "Counter Display Guess",
+      "category": "Productontwerp",
+      "year": "",
+      "description": "Voor deze schoolopdracht ontwierp ik een toonbankdisplay voor een parfumflesje van Guess. Het ontwerp is geïnspireerd op het iconische Guess-logo en is zo gemaakt dat het eenvoudig in elkaar geklikt kan worden zonder lijm of schroeven.\n\nIk heb Adobe Illustrator en SketchUp gebruikt om het ontwerp te maken. In Illustrator maakte ik het snijbestand voor de lasersnijder, en in SketchUp werkte ik het 3D-model uit om te zien hoe alles in elkaar zou passen.\n\nHet resultaat is een strak en opvallend display dat de aandacht trekt en het parfum mooi presenteert.",
+      "status": "published",
+      "cover": "assets/guess-display-cover.webp",
+      "images": [
+        {
+          "src": "assets/guess-display-1.webp",
+          "alt": "Het afgewerkte Guess-display",
+          "caption": "Het afgewerkte Guess-display"
+        },
+        {
+          "src": "assets/guess-display-2.webp",
+          "alt": "Vooraanzicht van het display",
+          "caption": "Vooraanzicht van het display"
+        },
+        {
+          "src": "assets/guess-display-3.webp",
+          "alt": "Zijaanzicht van het display",
+          "caption": "Zijaanzicht van het display"
+        },
+        {
+          "src": "assets/guess-display-4.webp",
+          "alt": "Display in perspectief",
+          "caption": "Display in perspectief"
+        },
+        {
+          "src": "assets/guess-display-5.webp",
+          "alt": "Detail van de parfumhouder",
+          "caption": "Detail van de parfumhouder"
+        },
+        {
+          "src": "assets/guess-display-6.webp",
+          "alt": "Moodboard voor het Guess-display",
+          "caption": "Moodboard voor het Guess-display"
+        },
+        {
+          "src": "assets/guess-display-7.webp",
+          "alt": "Snijtekeningen voor de lasersnijder",
+          "caption": "Snijtekeningen voor de lasersnijder"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "id": "rave-run",
+      "title": "Rave Run",
+      "category": "Evenement",
+      "year": "",
+      "description": "Tijdens mijn stage heb ik samen met een andere stagiair bijna alles geregeld voor een festivalproject. We waren verantwoordelijk voor veel verschillende taken, zoals:\n\nHet samenstellen van cadeaupakketjes voor de gasten.\nHet regelen van outfits voor de influencers.\nHet ontwerpen van het festivalterrein, inclusief de indeling.\nHet huren van statafels, een DJ en foodtrucks om het festival compleet te maken.\nHet inkopen en ophangen van alle versiering om de juiste sfeer neer te zetten.\n\nHet was een leerzaam project waar we veel verantwoordelijkheid hadden. Ik ben trots op hoe we alles hebben geregeld en samen een professioneel en geslaagd evenement hebben neergezet.",
+      "status": "published",
+      "cover": "assets/rave-run-cover.webp",
+      "images": [
+        {
+          "src": "assets/rave-run-1.webp",
+          "alt": "Björn Borg x Running Direct: Rave Run",
+          "caption": "Björn Borg x Running Direct: Rave Run"
+        },
+        {
+          "src": "assets/rave-run-2.webp",
+          "alt": "Ontvangst van de deelnemers",
+          "caption": "Ontvangst van de deelnemers"
+        },
+        {
+          "src": "assets/rave-run-3.webp",
+          "alt": "Deelnemers op het festivalterrein",
+          "caption": "Deelnemers op het festivalterrein"
+        },
+        {
+          "src": "assets/rave-run-4.webp",
+          "alt": "De originele uitnodiging voor de Rave Run",
+          "caption": "De originele uitnodiging voor de Rave Run"
+        }
+      ],
+      "video": "img/raverunfilmpje.mp4"
+    },
+    {
+      "id": "happy-socks",
+      "title": "Happy Socks",
+      "category": "Fotografie & vormgeving",
+      "year": "",
+      "description": "Voor mijn examenopdracht Samenwerken heb ik samen met Kaitlyn ter Beek een Instagram post ontworpen voor Happy Socks. Onze opdracht was om een creatieve en opvallende post te maken die de Rolling Stones-themasokken promoot.\n\nWe hebben onze inspiratie gehaald uit de iconische albumcover van de Rolling Stones, waarop een bekladde wc te zien is. Dit thema hebben we vertaald naar een kleurrijk en speels beeld dat perfect aansluit bij de vrolijke en gedurfde stijl van Happy Socks. Door gebruik te maken van een oranje achtergrond en een spontane setting hebben we een opvallende post gemaakt die past bij de rock-'n-roll vibe van de sokken.\n\nDeze opdracht liet ons niet alleen creatief nadenken, maar ook effectief samenwerken om een professioneel eindresultaat neer te zetten.",
+      "status": "published",
+      "cover": "assets/happy-socks-cover.webp",
+      "images": [
+        {
+          "src": "assets/happy-socks-1.webp",
+          "alt": "Mock-up van de Instagram post",
+          "caption": "Mock-up van de Instagram post"
+        },
+        {
+          "src": "assets/happy-socks-2.webp",
+          "alt": "De foto voor Happy Socks",
+          "caption": "De foto voor Happy Socks"
+        },
+        {
+          "src": "assets/happy-socks-3.webp",
+          "alt": "Inspiratie: de albumcover van The Rolling Stones",
+          "caption": "Inspiratie: de albumcover van The Rolling Stones"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "id": "lamp-design",
+      "title": "Lamp Design",
+      "category": "Productontwerp",
+      "year": "",
+      "description": "Voor een schoolopdracht moesten we een lamp ontwerpen die professioneel oogt en klaar is voor verkoop. Mijn ontwerp is gebaseerd op het kleurthema van mijn kamer (zwart, geel en grijs) en mijn passie voor muziek. Hierdoor kwam ik op het idee om een LP-plaat als opvallend element te gebruiken.\n\nDe lamp bestaat uit:\nEen LP-plaat: voor een unieke en vintage uitstraling.\nEen dimbare lampbol: voor sfeervol en aanpasbaar licht.\nEen vaas in de vorm van een theekop: ik heb het handvat afgezaagd, de randen netjes gevijld en alles geverfd zodat het bij het ontwerp past.\n\nIk ben trots op het resultaat, omdat het een mooie combinatie is van creativiteit en functionaliteit, en perfect in mijn kamer past.",
+      "status": "published",
+      "cover": "assets/lamp-design-cover.webp",
+      "images": [
+        {
+          "src": "assets/lamp-design-1.webp",
+          "alt": "De lamp met een LP-plaat als kap",
+          "caption": "De lamp met een LP-plaat als kap"
+        },
+        {
+          "src": "assets/lamp-design-2.webp",
+          "alt": "Bovenaanzicht van de lamp",
+          "caption": "Bovenaanzicht van de lamp"
+        },
+        {
+          "src": "assets/lamp-design-3.webp",
+          "alt": "De lamp geïnstalleerd in mijn slaapkamer",
+          "caption": "De lamp geïnstalleerd in mijn slaapkamer"
+        }
+      ],
+      "video": ""
+    },
+    {
+      "id": "hotelkamer",
+      "title": "Hotelkamer",
+      "category": "Interieurontwerp",
+      "year": "",
+      "description": "Voor deze schoolopdracht moest ik een hotelkamer ontwerpen. Ik kreeg een plattegrond met afmetingen aangeleverd en verder mocht ik zelf bepalen hoe ik de kamer wilde indelen en inrichten. Het was belangrijk dat het ontwerp functioneel was, maar ik wilde ook een moderne en leuke sfeer creëren.\n\nIk begon met een moodboard om de stijl en kleuren te bepalen. Ik koos voor een combinatie van neutrale tinten zoals grijs en wit, met warme accenten van hout en zwarte details voor een luxe uitstraling. Daarna werkte ik het ontwerp uit in 2 plattegronden en een 3D-model, zodat ik precies kon zien hoe alles eruit zou komen te zien.\n\nBij het indelen van de kamer heb ik geprobeerd om zoveel mogelijk ruimte te besparen zonder dat het krap aanvoelt. Er is een comfortabel bed, een zithoek, een werkplek en een badkamer.\n\nDeze opdracht was leerzaam omdat ik creatief met de ruimte moest omgaan en het ontwerp praktisch en logisch moest maken. Ik ben tevreden omdat het eindresultaat de gewenste sfeer heeft en goed werkt.",
+      "status": "published",
+      "cover": "assets/hotelkamer-cover.webp",
+      "images": [
+        {
+          "src": "assets/hotelkamer-1.webp",
+          "alt": "Render van de zithoek",
+          "caption": "Render van de zithoek"
+        },
+        {
+          "src": "assets/hotelkamer-2.webp",
+          "alt": "Render van het slaapgedeelte",
+          "caption": "Render van het slaapgedeelte"
+        },
+        {
+          "src": "assets/hotelkamer-3.webp",
+          "alt": "Render van de badkamer",
+          "caption": "Render van de badkamer"
+        },
+        {
+          "src": "assets/hotelkamer-4.webp",
+          "alt": "Render van de entree",
+          "caption": "Render van de entree"
+        },
+        {
+          "src": "assets/hotelkamer-5.webp",
+          "alt": "Conceptboard voor de hotelkamer",
+          "caption": "Conceptboard voor de hotelkamer"
+        },
+        {
+          "src": "assets/hotelkamer-6.webp",
+          "alt": "Plattegrond met indeling",
+          "caption": "Plattegrond met indeling"
+        },
+        {
+          "src": "assets/hotelkamer-7.webp",
+          "alt": "De geleverde plattegrond",
+          "caption": "De geleverde plattegrond"
+        },
+        {
+          "src": "assets/hotelkamer-8.webp",
+          "alt": "De aangepaste plattegrond",
+          "caption": "De aangepaste plattegrond"
+        },
+        {
+          "src": "assets/hotelkamer-9.webp",
+          "alt": "Voorstel indeling 1",
+          "caption": "Voorstel indeling 1"
+        },
+        {
+          "src": "assets/hotelkamer-10.webp",
+          "alt": "Voorstel indeling 2 — de uiteindelijke keuze",
+          "caption": "Voorstel indeling 2 — de uiteindelijke keuze"
+        }
+      ],
+      "video": ""
+    }
+  ],
+  "timeline": [
+    {
+      "id": "padelcentrum-bol",
+      "type": "work",
+      "title": "Kantinemedewerker",
+      "organization": "Padelcentrum Bol",
+      "period": "september 2024 – heden",
+      "description": ""
+    },
+    {
+      "id": "talland",
+      "type": "education",
+      "title": "MBO 4 · Ruimtelijk Vormgever",
+      "organization": "Talland College",
+      "period": "4 september 2022 – heden",
+      "description": ""
+    },
+    {
+      "id": "cambridge",
+      "type": "education",
+      "title": "Cambridge certificate C1",
+      "organization": "",
+      "period": "15 juni 2024",
+      "description": ""
+    },
+    {
+      "id": "new-york-pizza",
+      "type": "work",
+      "title": "Keukenmedewerker",
+      "organization": "New York Pizza",
+      "period": "juni 2023 – mei 2024",
+      "description": ""
+    },
+    {
+      "id": "dirk",
+      "type": "work",
+      "title": "Vakkenvuller",
+      "organization": "Dirk van den Broek",
+      "period": "september 2022 – oktober 2023",
+      "description": ""
+    },
+    {
+      "id": "waterdam",
+      "type": "work",
+      "title": "Toezichthoudster & schoonmaakster",
+      "organization": "Zwembad De Waterdam",
+      "period": "9 maart 2022 – 8 september",
+      "description": ""
+    },
+    {
+      "id": "don-bosco",
+      "type": "education",
+      "title": "Havo 3",
+      "organization": "Don Bosco College",
+      "period": "2019 – 2022",
+      "description": ""
+    }
+  ]
+}

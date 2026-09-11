@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow"><title>Beheer · Michelle Jonk</title>
+  <link rel="stylesheet" href="css/content.css"><link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-page">
+  <header class="admin-header">
+    <a class="brand" href="index.html">MICHELLE JONK <span>PORTFOLIO BEHEER</span></a>
+    <div class="header-actions"><a href="index.html" target="_blank" rel="noopener">Bekijk website ↗</a><button id="logout" hidden>Uitloggen</button></div>
+  </header>
+  <main>
+    <section id="login-panel" class="login-panel">
+      <p class="eyebrow">Jouw werk, jouw verhaal</p><h1>Welkom terug.</h1>
+      <p>Een nieuw project, een volgende stap.<br>Houd je portfolio eenvoudig bij.</p>
+      <button id="login" class="primary" disabled>Inloggen met Google</button>
+      <p class="muted">Alleen de twee ingestelde Google-accounts hebben toegang.</p>
+      <div id="setup" class="setup" hidden><h2>Nog even instellen</h2><p>De accounts zijn nog niet gekoppeld. Volg <a href="SETUP.md">de installatiehandleiding</a> voor Firebase, GitHub en Netlify. Je bestaande portfolio is alvast beschikbaar.</p></div>
+    </section>
+    <p id="auth-status" class="auth-status" role="status" aria-live="polite">Beheer laden…</p>
+    <section id="workspace" hidden>
+      <div class="workspace-heading"><div><p class="eyebrow">Mijn portfolio</p><h1>Maak ruimte voor nieuw werk.</h1><p id="account" class="muted"></p></div></div>
+      <div class="save-bar">
+        <span id="save-state">Alle wijzigingen opgeslagen</span>
+        <div class="button-row"><button id="save">Concept opslaan</button><button id="publish" class="primary">Wijzigingen publiceren</button></div>
+      </div>
+      <div id="operation-status" class="operation-status" role="status" aria-live="polite"></div>
+      <div id="publication" class="publication" hidden><span id="publish-spinner" class="spinner" hidden></span><span id="publish-status" role="status" aria-live="polite"></span><button id="retry-deploy" hidden>Publicatie opnieuw starten</button></div>
+      <fieldset id="editor-controls">
+        <div class="editor-layout">
+          <aside class="editor-sidebar">
+            <div class="tabs" aria-label="Inhoud kiezen"><button id="tab-projects" class="active" aria-pressed="true">Projecten</button><button id="tab-timeline" aria-pressed="false">Tijdlijn</button></div>
+            <button id="add" class="add-button">+ Nieuw project</button>
+            <p class="muted sidebar-help">Gebruik de pijlen om de volgorde te veranderen.</p>
+            <ul id="item-list" class="item-list"></ul>
+          </aside>
+          <section id="editor" class="editor-panel" aria-label="Inhoud bewerken"></section>
+        </div>
+      </fieldset>
+      <p class="workspace-note">Concept opslaan bewaart je werk privé. Publiceren zet alle opgeslagen wijzigingen en zichtbare projecten op de website. De huidige website blijft beschikbaar tijdens het laden.</p>
+    </section>
+    <noscript>Schakel JavaScript in om het beheer te gebruiken.</noscript>
+  </main>
+  <dialog id="preview-dialog" class="preview-dialog"><button id="close-preview" class="dialog-close">Voorbeeld sluiten ×</button><article id="preview-content"></article></dialog>
+  <dialog id="crop-dialog" class="crop-dialog">
+    <h2>Afbeelding uit een projectpagina halen</h2>
+    <p>Sleep een rechthoek om een foto, render of moodboard. Je kunt de selectie hieronder precies aanpassen. Voeg de tekst daarna toe in het tekstveld van je project.</p>
+    <canvas id="crop-canvas" aria-label="Sleep om een uitsnede te selecteren"></canvas>
+    <div class="crop-fields">
+      <label>Links (%)<input id="crop-x" type="number" min="0" max="99" value="0" step="0.1"></label>
+      <label>Boven (%)<input id="crop-y" type="number" min="0" max="99" value="0" step="0.1"></label>
+      <label>Breedte (%)<input id="crop-w" type="number" min="0.1" max="100" value="100" step="0.1"></label>
+      <label>Hoogte (%)<input id="crop-h" type="number" min="0.1" max="100" value="100" step="0.1"></label>
+    </div>
+    <p id="crop-status" role="status"></p>
+    <div class="button-row"><button id="close-crop">Sluiten</button><button id="upload-crop" class="primary">Uitsnede toevoegen</button></div>
+  </dialog>
+  <script type="module" src="src/admin.js"></script>
+</body>
+</html>
