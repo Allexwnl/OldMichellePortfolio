@@ -58,7 +58,7 @@ const legacy = {
 };
 const template = await readFile('dist/project.html','utf8');
 for (const [file,id] of Object.entries(legacy)) await writeFile(`dist/${file}`, template.replace('class="project-page"', `class="project-page" data-project="${id}"`));
-for (const file of ['style.css','css/content.css','css/admin.css','SETUP.md','Untitled design.mp4','img/raverunfilmpje.mp4']) await copyFile(file,`dist/${file}`);
+for (const file of ['style.css','css/content.css','css/admin.css','Untitled design.mp4','img/raverunfilmpje.mp4']) await copyFile(file,`dist/${file}`);
 await writeFile('dist/portfolio.json', JSON.stringify(content));
 const firebase = { apiKey:process.env.FIREBASE_API_KEY || '', authDomain:process.env.FIREBASE_AUTH_DOMAIN || '',
   projectId:process.env.FIREBASE_PROJECT_ID || '', appId:process.env.FIREBASE_APP_ID || '' };
